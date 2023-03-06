@@ -1,0 +1,98 @@
+body{
+    background-color: black;
+    width: 100%;
+    margin-top: 70px;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('Image/About-us-cover.jpg');
+    background-size: cover;
+}
+.navigation{
+    display: flex;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 2;
+    width: 99%;
+    background-color: #1a1919;
+
+}
+
+.mainlogo{
+  margin-top: 2px;
+    width: 200px;
+    height:70px;
+    margin-left: 30px;
+}
+.mainlogo:hover
+{
+  border: 1px solid white;
+}
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right:40px;
+    width: 40%;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: x-large;
+    padding: 15px;
+
+    
+}
+.nav-link:hover{
+  border: 1px solid white;
+  height: max-content;
+}
+.main-title{
+    color: #fff;
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.div2{
+    width: 40%;
+    margin-left:30%;
+    color: white ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: x-large;
+    text-align: center; 
+}
+iframe
+{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    bottom: 0;
+}
+/* media link*/
+.media-container
+{   display: inline;
+    font-size: 1.5em;
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    color: #fff;
+    width: fit-content;
+    margin-right: 20px;
+}
+
+.media-images
+{
+width: 30px;
+height: 30px;
+}
+.media-images:hover
+{
+border: 1px solid white;
+
+}

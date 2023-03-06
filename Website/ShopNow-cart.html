@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+        <title>SHOP NOW</title>
+        <link rel = "icon" href ="Image/Titleicon.ico" type = "image/x-icon">
+        <style>
+body
+{
+  background-color: rgb(28, 28, 28);
+}
+.navigation{
+    display: flex;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 2;
+    width: 99%;
+    background-color: #1a1919;
+
+}
+
+.mainlogo{
+  margin-top: 2px;
+    width: 200px;
+    height:70px;
+    margin-left: 30px;
+}
+.mainlogo:hover
+{
+  border: 1px solid white;
+}
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right:40px;
+    width: 40%;
+}
+.nav-link{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: x-large;
+    padding: 15px;
+
+    
+}
+.nav-link:hover{
+  border: 1px solid white;
+  height: max-content;
+}
+
+#searchform {
+    background-color: #2d2c2c;
+    width: 580px;
+    height: 45px;
+    border-radius: 5px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    margin: auto;
+  }
+
+  .searchinput {
+    all: unset;
+    font: 16px system-ui;
+    color: white;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+  }
+
+  ::placeholder {
+    color: white;
+    opacity: 0.7; 
+  }
+
+  svg {
+    color: white;
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+    
+  }
+  .searchbutton {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+  }
+  .title
+  {
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 4em;
+    margin-top: 100px;
+    width: 100%;
+  }
+  .Name
+  {
+    margin-left: 5%;
+    width: fit-content;
+    background-color: unset;
+    font-size: 2em;
+    font: bolder;
+    background-color: rgb(195, 195, 195);
+  }
+  .id
+  {
+    margin-left: 5%;
+    width: fit-content;
+    background-color: unset;
+    font-size: 2em;
+    font: bolder;
+    background-color: rgb(195, 195, 195);
+  }
+  .main-cart-container
+  {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgb(195, 195, 195);
+    width: 90%;
+    min-height: 500px;
+    height: fit-content;
+  }
+  .empty-cart
+  { 
+    font-size: 1.5em;
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 15%;
+    color: grey;
+  }
+        </style>
+    </head>
+    <body>
+                   <!--navigation-->
+                   <div class="navigation">
+                    <a href="ShopNow.html"><img src="Image\ShopNowlogo.png" alt="Shopnowlogo" class="mainlogo" id="mainlogo"></a>
+                    <form role="search" id="searchform">
+                        <input type="search" id="query" name="q" class="searchinput"
+                         placeholder="Search Items..."
+                         aria-label="Search through site content">
+                        <button class="searchbutton">
+                          <svg viewBox="0 0 1024 1024"><path class="path1" d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z"></path></svg>
+                        </button>
+                      </form>              
+                       <nav>
+                        <a href="Shopnow-cart.html" class="nav-link" title="Cart page">Cart</a>
+                        <a href="Shopnow.html" class="nav-link" title="Home page">Home</a>
+                        <a href="ShopNow-AboutUs.html" class="nav-link" title="About us page">About Us</a>
+                        <a href="ShopNow-ConctactUs.html" class="nav-link" title="Contact us page">Contact Us</a>
+                       </nav>
+                      </div>
+                      <div class="page-container">
+                        <div class="title">Cart</div>
+                        <br> <input type="text" value="Client Name: #####" class="Name" readonly></div>
+                        <br> <input type="text" value="Client Id: #####" class="id" readonly></div>
+                        <div class="main-cart-container">
+                            <div class="empty-cart">Cart is Empty. <a href="Shopnow.html"> Start Shopping</a>
+                            </div>
+                        </div>
+                      </div>

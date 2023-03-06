@@ -1,0 +1,157 @@
+body
+{
+  background-color: grey;
+  background-size: cover;
+}
+.navigation{
+    display: flex;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 2;
+    width: 99%;
+    background-color: #1a1919;
+
+}
+
+.mainlogo{
+  margin-top: 2px;
+    width: 200px;
+    height:70px;
+    margin-left: 30px;
+}
+.mainlogo:hover
+{
+  border: 1px solid white;
+}
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right:40px;
+    width: 40%;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: x-large;
+    padding: 15px;
+
+    
+}
+.nav-link:hover{
+  border: 1px solid white;
+  height: max-content;
+}
+
+#searchform {
+    background-color: #2d2c2c;
+    width: 580px;
+    height: 45px;
+    border-radius: 5px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    margin: auto;
+  }
+
+  .searchinput {
+    all: unset;
+    font: 16px system-ui;
+    color: white;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+  }
+
+  ::placeholder {
+    color: white;
+    opacity: 0.7; 
+  }
+
+  svg {
+    color: white;
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+    
+  }
+  .searchbutton {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+  }
+  /* body */
+  /*page header */
+  .page-container
+  {
+    margin-left: 10%;
+    margin-top: 70px;
+    background-color: none;
+    width: 80%;
+  }
+  .Category-Title
+  {
+    font: italic;
+    font-size: 4em;
+    color: #fff;
+    text-shadow:
+    -1px -1px 0 rgb(0, 0, 0),
+    1px -1px 0 rgb(0, 0, 0),
+    -1px 1px 0 rgb(0, 0, 0),
+    1px 1px 0 rgb(0, 0, 0); 
+    padding-top: 100px;
+    border-bottom: black;
+    text-align: center;
+    width: 100%;
+    background-color: none;
+  }
+  .items-container
+  {
+    display: flexbox;
+    justify-content: space-between;
+    min-height: 500px;
+  }
+  .listimage
+  {
+    background-color: white;
+    border: solid 5px grey;
+    border-radius:20px ;
+    width: 150px;
+    height: 150px;
+  }
+  .listimage:hover
+  {
+    border: solid 5px rgb(43, 147, 182);
+    cursor: pointer;
+  }
+  .item-button
+  {
+    all: unset;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 50px;
+    margin-top: 50px;
+    width:10%;
+    
+
+  }
+  .Text-Under-Button
+  {
+    font-size: 1.1em;
+    padding-left: 10px;
+    color: #fff;
+    text-shadow: 
+    -1px -1px 0 rgb(0, 0, 0),
+    1px -1px 0 rgb(0, 0, 0),
+    -1px 1px 0 rgb(0, 0, 0),
+    1px 1px 0 rgb(0, 0, 0); 
+    text-decoration: none;
+    text-align: left;
+  }

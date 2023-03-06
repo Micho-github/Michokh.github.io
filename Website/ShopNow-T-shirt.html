@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+        <title>SHOP NOW</title>
+        <link rel = "icon" href ="Image/Titleicon.ico" type = "image/x-icon">
+        <link rel ="stylesheet" href="ShopNow-Item-Checkout.css">
+        <script src="ShopNow-Item-Checkout.js"></script>
+    </head>
+    <body>
+                   <!--navigat6ion-->
+                   <div class="navigation">
+                    <a href="ShopNow.html"><img src="Image\ShopNowlogo.png" alt="Shopnowlogo" class="mainlogo" id="mainlogo"></a>
+                    <form role="search" id="searchform">
+                        <input type="search" id="query" name="q" class="searchinput"
+                         placeholder="Search Items..."
+                         aria-label="Search through site content">
+                        <button class="searchbutton">
+                          <svg viewBox="0 0 1024 1024"><path class="path1" d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z"></path></svg>
+                        </button>
+                      </form>              
+                       <nav>
+                        <a href="Shopnow-cart.html" class="nav-link" title="Cart page">Cart</a>
+                        <a href="Shopnow.html" class="nav-link" title="Home page">Home</a>
+                        <a href="ShopNow-AboutUs.html" class="nav-link" title="About us page">About Us</a>
+                        <a href="ShopNow-ConctactUs.html" class="nav-link" title="Contact us page">Contact Us</a>
+                       </nav>
+                      </div>
+                      <div class="page-container">
+                      <div class="ImagesandVideo-container">
+                        <button class="LandRbutton" id="leftbutton"><</button>
+                        <img src="Image/T-shirt.jpg" id="ShownImage">
+                        <button class="LandRbutton" id="rightbutton">></button>
+                        <div class="Image-buttons-container">
+                        <button class="Image-button" id="imagebutton1"><img src="Image/T-shirt.jpg" class="Image-in-button"></button>
+                        <button class="Image-button" id="imagebutton2"><img src="Image/T-shirt-front.jpg" class="Image-in-button"></button>
+                        <button class="Image-button" id="imagebutton3"><img src="Image/T-shirt-back.jpg" class="Image-in-button"></button>
+                        </div>
+                        <div class="video"><div class="video-title">Video below:</div> <br><video width="fit-content" height="250"controls>
+                          <source src="Video/Black-T-Shirt-video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.</div>
+                        </video>
+                    </div>
+                    <div class="Description-container">
+                      <div class="Item-Name">Hanes Mens Beefy Classic Crewneck Cotton Tee</div>
+                      <form action="#" onsubmit="cart()">
+                        <div class="Price-Tag"><span id="Price-Currency">$</span><span id="Price-Value">10.0 </span></div>
+                      <br><span class="Description-headers">Color</span>
+                      <br>
+                      <select class="Drop-Downs" id="Item-Color" minvalue="1" maxvalue="12" required>
+                        <option value="Black" >Black</option>
+                      </select>
+                      <br><span class="Description-headers">Size</span>
+                      <br><select class="Drop-Downs" id="Item-Size" required>
+                        <option value="" selected></option>
+                        <option value="X-small">X-Small</option>
+                        <option value="Small">Small</option>
+                        <option value="Medium">Medium</option>
+                        <option value="Large">Large</option>
+                        <option value="X-Large">X-Large</option>
+                        <option value="XX-Large">XX-Large</option>
+                      </select>
+                      <br><span class="Description-headers">Quantity</span>
+                      <br><input type="number" min="1" max="99" value="1" id="Quantity" class="Drop-Downs" required>
+                      <br><br><button value="submit" class="addtocart" > Add to cart</button>
+                      </form>
+                      <br><a href="#About-Item" style="text-decoration: none;"><button class="About-Item-Title" id="About-Item-Button" >Show About This Item:</button></a>
+                      <br><p style="display: none;" id="About-Item" class="Description-Text">A black t-shirt is a wardrobe staple, perfect for any occasion. It's made of soft, comfortable cotton and has a round neckline and short sleeves. The sleek black color adds a touch of sophistication to any outfit. The versatility of black means it pairs well with any color, making it an easy choice. It can be dressed up with a blazer or dressed down with jeans for a casual look. A black t-shirt is a classic piece that never goes out of style. It's a must-have for anyone looking for a stylish and practical clothing item.</p>
+                      </div>
+                    </div>
+                    </body>
+                    </html>
+                      
+                        
