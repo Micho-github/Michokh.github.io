@@ -102,7 +102,7 @@ nav{
     background-color: black;
     margin-left: 200px;
     font-size: 2em;
-    width:1100px;
+    width:1000px;
     background-color: none;
     color: white;
     text-align: center;
@@ -111,7 +111,7 @@ nav{
   .main-image
   {
     border: 1px solid black;
-    width: 900px;
+    width: 1000px;
     height: 400px;
     overflow: hidden;
   }
